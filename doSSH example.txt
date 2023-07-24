@@ -1,0 +1,22 @@
+command:
+dossh jalla.txt 5000 1000 jorlan mittpassord go 10.80.206.11 10000
+
+
+commands in a textfile jalla.txt
+
+edit
+
+set security zones security-zone untrust address-book address cbx-internal01 62.97.245.80/32
+set security zones security-zone untrust address-book address cbx-internal02 62.97.245.82/32
+set security zones security-zone untrust address-book address cbx-external01 62.97.245.83/32
+set security zones security-zone untrust address-book address-set mit-onshore-commboxhubs-group address cbx-internal01
+set security zones security-zone untrust address-book address-set mit-onshore-commboxhubs-group address cbx-internal02
+set security zones security-zone untrust address-book address-set mit-onshore-commboxhubs-group address cbx-external01
+
+set security policies from-zone untrust to-zone trust policy untrust-trust-onshore-commboxhubs-permit match source-address mit-onshore-commboxhubs-group
+set security policies from-zone untrust to-zone trust policy untrust-trust-onshore-commboxhubs-permit match destination-address #var1#004v
+set security policies from-zone untrust to-zone trust policy untrust-trust-onshore-commboxhubs-permit match application junos-smtp
+set security policies from-zone untrust to-zone trust policy untrust-trust-onshore-commboxhubs-permit then permit
+
+commit and quit
+
