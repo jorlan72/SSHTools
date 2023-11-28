@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00.00.00.000.406,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.118,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.214,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.655,C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\data\RAD\do-ssh\main.dfm</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.557,C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\data\RAD\do-ssh\dossh.dproj</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.356,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.321,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.030,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.610,=C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00.00.00.000.655,C:\Users\Lanesskog\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\data\RAD\do-ssh\main.pas</Transaction>
+  </Transactions>
+</BorlandProject>
